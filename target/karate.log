@@ -1,0 +1,1166 @@
+11:58:01.376 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:58:02.325 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+11:58:02.542 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://spntest.myspinny.com/api/three_sixty_view/interior/132691
+1 > Host: spntest.myspinny.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+11:58:03.198 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+2 > GET https://spntest.myspinny.com/api/three_sixty_view/interior/132691
+2 > Host: spntest.myspinny.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+11:58:03.653 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 454
+2 < 200
+2 < Date: Fri, 19 Aug 2022 06:28:03 GMT
+2 < Content-Type: application/json
+2 < Content-Length: 12176
+2 < Connection: keep-alive
+2 < Server: openresty
+2 < X-Frame-Options: SAMEORIGIN
+2 < Access-Control-Allow-Credentials: true
+2 < Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, PATCH
+2 < Access-Control-Allow-Headers: Accept,Authorization,Cache-Control,Content-Type,DNT,If-Modified-Since,Keep-Alive,Origin,User-Agent,X-Requested-With,client,source,gqlread,auth-type
+{"success": "true", "message": "Versions fetched successfully", "data": [{"created_at": "2021-12-28T09:42:39.557721Z", "updated_at": "2021-12-28T09:42:39.557785Z", "active": true, "lead_id": 132691, "view_type": "interior", "id": 629, "created_by_user_id": 0, "start_frame_order": 0}, {"created_at": "2021-12-28T11:59:07.757632Z", "updated_at": "2021-12-28T11:59:07.757694Z", "active": true, "lead_id": 132691, "view_type": "interior", "id": 632, "created_by_user_id": 0, "start_frame_order": 0}, {"created_at": "2021-12-28T13:30:33.172081Z", "created_by_user_id": 1062084, "updated_at": "2021-12-28T13:30:33.172119Z", "active": true, "lead_id": 132691, "view_type": "interior", "id": 638, "start_frame_order": 0}, {"created_at": "2021-12-29T11:30:15.682243Z", "created_by_user_id": 1062084, "updated_at": "2021-12-29T11:30:15.682283Z", "active": true, "lead_id": 132691, "view_type": "interior", "id": 641, "start_frame_order": 0}, {"created_at": "2022-01-06T09:26:26.582083Z", "updated_at": "2022-01-06T09:26:26.582143Z", "active": true, "lead_id": 132691, "view_type": "interior", "id": 648, "created_by_user_id": 0, "start_frame_order": 0}, {"created_at": "2022-01-06T10:11:01.310060Z", "created_by_user_id": 1062084, "updated_at": "2022-01-06T10:11:01.310098Z", "active": true, "lead_id": 132691, "view_type": "interior", "id": 651, "start_frame_order": 0}, {"created_at": "2022-01-06T10:15:46.076754Z", "created_by_user_id": 1062084, "updated_at": "2022-01-06T10:15:46.076794Z", "active": true, "lead_id": 132691, "view_type": "interior", "id": 654, "start_frame_order": 0}, {"created_at": "2022-01-06T10:19:37.096481Z", "created_by_user_id": 1062084, "updated_at": "2022-01-06T10:19:37.096519Z", "active": true, "lead_id": 132691, "view_type": "interior", "id": 657, "start_frame_order": 0}, {"created_at": "2022-01-06T12:22:51.491295Z", "created_by_user_id": 1062084, "updated_at": "2022-01-06T12:22:51.491332Z", "active": true, "lead_id": 132691, "view_type": "interior", "id": 660, "start_frame_order": 0}, {"created_at": "2022-01-06T12:43:30.202219Z", "created_by_user_id": 1062084, "updated_at": "2022-01-06T12:43:30.202256Z", "active": true, "lead_id": 132691, "view_type": "interior", "id": 663, "start_frame_order": 0}, {"created_at": "2022-01-31T06:07:43.709827Z", "created_by_user_id": 1062084, "updated_at": "2022-01-31T06:07:43.709930Z", "active": true, "lead_id": 132691, "view_type": "interior", "id": 868, "start_frame_order": 0}, {"created_at": "2022-01-31T06:08:41.520412Z", "created_by_user_id": 1062084, "updated_at": "2022-01-31T06:08:41.520461Z", "active": true, "lead_id": 132691, "view_type": "interior", "id": 873, "start_frame_order": 0}, {"created_at": "2022-01-31T06:10:29.320458Z", "created_by_user_id": 1062084, "updated_at": "2022-01-31T06:10:29.320792Z", "active": true, "lead_id": 132691, "view_type": "interior", "id": 879, "start_frame_order": 0}, {"created_at": "2022-01-31T07:32:38.331341Z", "created_by_user_id": 1062084, "updated_at": "2022-01-31T07:32:38.331396Z", "active": true, "lead_id": 132691, "view_type": "interior", "id": 884, "start_frame_order": 0}, {"created_at": "2022-01-31T10:28:57.690329Z", "created_by_user_id": 1062084, "updated_at": "2022-01-31T10:28:57.690377Z", "active": true, "lead_id": 132691, "view_type": "interior", "id": 888, "start_frame_order": 0}, {"created_at": "2022-01-31T10:32:28.280626Z", "created_by_user_id": 1062084, "updated_at": "2022-01-31T10:32:28.280671Z", "active": true, "lead_id": 132691, "view_type": "interior", "id": 892, "start_frame_order": 0}, {"created_at": "2022-01-31T10:32:55.672491Z", "created_by_user_id": 1062084, "updated_at": "2022-01-31T10:32:55.672539Z", "active": true, "lead_id": 132691, "view_type": "interior", "id": 893, "start_frame_order": 0}, {"created_at": "2022-01-31T12:15:29.611435Z", "updated_at": "2022-01-31T12:15:29.611482Z", "active": true, "lead_id": 132691, "view_type": "interior", "id": 909, "created_by_user_id": 0, "start_frame_order": 0}, {"created_at": "2022-01-31T12:27:50.887998Z", "created_by_user_id": 1062084, "updated_at": "2022-01-31T12:27:50.888047Z", "active": true, "lead_id": 132691, "view_type": "interior", "id": 913, "start_frame_order": 0}, {"created_at": "2022-01-31T12:28:34.482796Z", "created_by_user_id": 1062084, "updated_at": "2022-01-31T12:28:34.482845Z", "active": true, "lead_id": 132691, "view_type": "interior", "id": 914, "start_frame_order": 0}, {"created_at": "2022-01-31T13:06:42.665624Z", "created_by_user_id": 1062084, "updated_at": "2022-01-31T13:06:42.665671Z", "active": true, "lead_id": 132691, "view_type": "interior", "id": 921, "start_frame_order": 0}, {"created_at": "2022-01-31T14:53:52.730341Z", "created_by_user_id": 1062084, "updated_at": "2022-01-31T14:53:52.730388Z", "active": true, "lead_id": 132691, "view_type": "interior", "id": 928, "start_frame_order": 0}, {"created_at": "2022-02-01T05:15:07.768617Z", "created_by_user_id": 1062084, "updated_at": "2022-02-01T05:15:07.768667Z", "active": true, "lead_id": 132691, "view_type": "interior", "id": 934, "start_frame_order": 0}, {"created_at": "2022-02-01T06:30:33.995987Z", "updated_at": "2022-02-01T06:30:33.996045Z", "active": true, "lead_id": 132691, "view_type": "interior", "id": 939, "created_by_user_id": 0, "start_frame_order": 0}, {"created_at": "2022-02-01T07:34:54.784907Z", "created_by_user_id": 1062084, "updated_at": "2022-02-01T07:34:54.784961Z", "active": true, "lead_id": 132691, "view_type": "interior", "id": 940, "start_frame_order": 0}, {"created_at": "2022-02-01T08:03:45.067934Z", "created_by_user_id": 1062084, "updated_at": "2022-02-01T08:03:45.067990Z", "active": true, "lead_id": 132691, "view_type": "interior", "id": 945, "start_frame_order": 0}, {"created_at": "2022-02-01T08:09:11.684055Z", "created_by_user_id": 1062084, "updated_at": "2022-02-01T08:09:11.684109Z", "active": true, "lead_id": 132691, "view_type": "interior", "id": 952, "start_frame_order": 0}, {"created_at": "2022-02-01T08:39:50.958816Z", "updated_at": "2022-02-01T08:39:50.958866Z", "active": true, "lead_id": 132691, "view_type": "interior", "id": 955, "created_by_user_id": 0, "start_frame_order": 0}, {"created_at": "2022-02-01T08:47:14.482379Z", "updated_at": "2022-02-01T08:47:14.482430Z", "active": true, "lead_id": 132691, "view_type": "interior", "id": 958, "created_by_user_id": 0, "start_frame_order": 0}, {"created_at": "2022-02-01T09:53:27.662732Z", "updated_at": "2022-02-01T09:53:27.662782Z", "active": true, "lead_id": 132691, "view_type": "interior", "id": 961, "created_by_user_id": 0, "start_frame_order": 0}, {"created_at": "2022-02-01T09:58:52.709719Z", "updated_at": "2022-02-01T09:58:52.709770Z", "active": true, "lead_id": 132691, "view_type": "interior", "id": 964, "created_by_user_id": 0, "start_frame_order": 0}, {"created_at": "2022-02-01T10:07:49.983493Z", "created_by_user_id": 1062084, "updated_at": "2022-02-01T10:07:49.984403Z", "active": true, "lead_id": 132691, "view_type": "interior", "id": 965, "start_frame_order": 0}, {"created_at": "2022-02-01T10:09:08.384276Z", "created_by_user_id": 1062084, "updated_at": "2022-02-01T10:09:08.384330Z", "active": true, "lead_id": 132691, "view_type": "interior", "id": 967, "start_frame_order": 0}, {"created_at": "2022-02-01T10:13:07.010266Z", "created_by_user_id": 1062084, "updated_at": "2022-02-01T10:13:07.010323Z", "active": true, "lead_id": 132691, "view_type": "interior", "id": 972, "start_frame_order": 0}, {"created_at": "2022-02-01T10:13:37.339335Z", "updated_at": "2022-02-01T10:13:37.339412Z", "active": true, "lead_id": 132691, "view_type": "interior", "id": 976, "created_by_user_id": 0, "start_frame_order": 0}, {"created_at": "2022-02-01T10:13:55.120846Z", "created_by_user_id": 1062084, "updated_at": "2022-02-01T10:13:55.120902Z", "active": true, "lead_id": 132691, "view_type": "interior", "id": 977, "start_frame_order": 0}, {"created_at": "2022-02-01T10:27:39.463689Z", "created_by_user_id": 1062084, "updated_at": "2022-02-01T10:27:39.463741Z", "active": true, "lead_id": 132691, "view_type": "interior", "id": 981, "start_frame_order": 0}, {"created_at": "2022-02-01T10:36:49.703813Z", "created_by_user_id": 1062084, "updated_at": "2022-02-01T10:36:49.703866Z", "active": true, "lead_id": 132691, "view_type": "interior", "id": 982, "start_frame_order": 0}, {"created_at": "2022-02-01T10:50:34.475755Z", "updated_at": "2022-02-01T10:50:34.475817Z", "active": true, "lead_id": 132691, "view_type": "interior", "id": 988, "created_by_user_id": 0, "start_frame_order": 0}, {"created_at": "2022-02-01T11:25:54.663764Z", "created_by_user_id": 1062084, "updated_at": "2022-02-01T11:25:54.663810Z", "active": true, "lead_id": 132691, "view_type": "interior", "id": 992, "start_frame_order": 0}, {"created_at": "2022-02-01T11:26:51.900425Z", "created_by_user_id": 1062084, "updated_at": "2022-02-01T11:26:51.900482Z", "active": true, "lead_id": 132691, "view_type": "interior", "id": 995, "start_frame_order": 0}, {"created_at": "2022-02-01T13:17:27.416866Z", "updated_at": "2022-02-01T13:17:27.416917Z", "active": true, "lead_id": 132691, "view_type": "interior", "id": 1000, "created_by_user_id": 0, "start_frame_order": 0}, {"created_at": "2022-02-01T14:38:49.903682Z", "updated_at": "2022-02-01T14:38:49.903733Z", "active": true, "lead_id": 132691, "view_type": "interior", "id": 1003, "created_by_user_id": 0, "start_frame_order": 0}, {"created_at": "2022-02-02T06:06:23.597049Z", "created_by_user_id": 1062084, "updated_at": "2022-02-02T06:06:23.597098Z", "active": true, "lead_id": 132691, "view_type": "interior", "id": 1011, "start_frame_order": 0}, {"created_at": "2022-02-02T06:07:36.762073Z", "created_by_user_id": 1062084, "updated_at": "2022-02-02T06:07:36.762123Z", "active": true, "lead_id": 132691, "view_type": "interior", "id": 1017, "start_frame_order": 0}, {"created_at": "2022-02-08T08:47:03.423314Z", "created_by_user_id": 1062084, "updated_at": "2022-02-08T08:47:03.423364Z", "active": true, "lead_id": 132691, "view_type": "interior", "id": 1023, "start_frame_order": 0}, {"created_at": "2022-02-08T08:58:41.887432Z", "created_by_user_id": 1062084, "updated_at": "2022-02-08T08:58:41.887485Z", "active": true, "lead_id": 132691, "view_type": "interior", "id": 1024, "start_frame_order": 0}, {"created_at": "2022-02-09T12:04:49.153225Z", "created_by_user_id": 1062084, "updated_at": "2022-02-09T12:04:49.153263Z", "active": true, "lead_id": 132691, "view_type": "interior", "id": 1040, "start_frame_order": 0}, {"created_at": "2022-02-09T12:05:29.335125Z", "created_by_user_id": 1062084, "updated_at": "2022-02-09T12:05:29.335165Z", "active": true, "lead_id": 132691, "view_type": "interior", "id": 1042, "start_frame_order": 0}, {"created_at": "2022-02-11T06:30:01.888574Z", "updated_at": "2022-02-11T06:30:01.888619Z", "active": true, "lead_id": 132691, "view_type": "interior", "id": 1065, "created_by_user_id": 0, "start_frame_order": 0}, {"created_at": "2022-02-11T06:32:24.410490Z", "updated_at": "2022-02-11T06:32:24.410531Z", "active": true, "lead_id": 132691, "view_type": "interior", "id": 1068, "created_by_user_id": 0, "start_frame_order": 0}, {"created_at": "2022-02-16T10:27:58.621240Z", "updated_at": "2022-02-16T10:27:58.621284Z", "active": true, "lead_id": 132691, "view_type": "interior", "id": 1083, "created_by_user_id": 0, "start_frame_order": 0}, {"created_at": "2022-02-16T13:19:32.298826Z", "updated_at": "2022-02-16T13:19:32.298869Z", "active": true, "lead_id": 132691, "view_type": "interior", "id": 1113, "created_by_user_id": 0, "start_frame_order": 0}, {"created_at": "2022-02-16T13:20:56.322408Z", "updated_at": "2022-02-16T13:20:56.322453Z", "active": true, "lead_id": 132691, "view_type": "interior", "id": 1116, "created_by_user_id": 0, "start_frame_order": 0}, {"created_at": "2022-02-16T13:35:48.327864Z", "updated_at": "2022-02-16T13:35:48.327909Z", "active": true, "lead_id": 132691, "view_type": "interior", "id": 1119, "created_by_user_id": 0, "start_frame_order": 0}, {"created_at": "2022-03-01T11:04:34.985653Z", "updated_at": "2022-03-01T11:04:34.985697Z", "active": true, "lead_id": 132691, "view_type": "interior", "id": 1174, "created_by_user_id": 0, "start_frame_order": 0}]}
+
+11:58:03.712 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "success": "true",
+  "message": "Versions fetched successfully",
+  "data": [
+    {
+      "created_at": "2021-12-28T09:42:39.557721Z",
+      "updated_at": "2021-12-28T09:42:39.557785Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 629,
+      "created_by_user_id": 0,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2021-12-28T11:59:07.757632Z",
+      "updated_at": "2021-12-28T11:59:07.757694Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 632,
+      "created_by_user_id": 0,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2021-12-28T13:30:33.172081Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2021-12-28T13:30:33.172119Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 638,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2021-12-29T11:30:15.682243Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2021-12-29T11:30:15.682283Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 641,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-01-06T09:26:26.582083Z",
+      "updated_at": "2022-01-06T09:26:26.582143Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 648,
+      "created_by_user_id": 0,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-01-06T10:11:01.310060Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-01-06T10:11:01.310098Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 651,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-01-06T10:15:46.076754Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-01-06T10:15:46.076794Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 654,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-01-06T10:19:37.096481Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-01-06T10:19:37.096519Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 657,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-01-06T12:22:51.491295Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-01-06T12:22:51.491332Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 660,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-01-06T12:43:30.202219Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-01-06T12:43:30.202256Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 663,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-01-31T06:07:43.709827Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-01-31T06:07:43.709930Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 868,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-01-31T06:08:41.520412Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-01-31T06:08:41.520461Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 873,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-01-31T06:10:29.320458Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-01-31T06:10:29.320792Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 879,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-01-31T07:32:38.331341Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-01-31T07:32:38.331396Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 884,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-01-31T10:28:57.690329Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-01-31T10:28:57.690377Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 888,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-01-31T10:32:28.280626Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-01-31T10:32:28.280671Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 892,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-01-31T10:32:55.672491Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-01-31T10:32:55.672539Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 893,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-01-31T12:15:29.611435Z",
+      "updated_at": "2022-01-31T12:15:29.611482Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 909,
+      "created_by_user_id": 0,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-01-31T12:27:50.887998Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-01-31T12:27:50.888047Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 913,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-01-31T12:28:34.482796Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-01-31T12:28:34.482845Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 914,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-01-31T13:06:42.665624Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-01-31T13:06:42.665671Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 921,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-01-31T14:53:52.730341Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-01-31T14:53:52.730388Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 928,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-01T05:15:07.768617Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-02-01T05:15:07.768667Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 934,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-01T06:30:33.995987Z",
+      "updated_at": "2022-02-01T06:30:33.996045Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 939,
+      "created_by_user_id": 0,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-01T07:34:54.784907Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-02-01T07:34:54.784961Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 940,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-01T08:03:45.067934Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-02-01T08:03:45.067990Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 945,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-01T08:09:11.684055Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-02-01T08:09:11.684109Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 952,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-01T08:39:50.958816Z",
+      "updated_at": "2022-02-01T08:39:50.958866Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 955,
+      "created_by_user_id": 0,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-01T08:47:14.482379Z",
+      "updated_at": "2022-02-01T08:47:14.482430Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 958,
+      "created_by_user_id": 0,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-01T09:53:27.662732Z",
+      "updated_at": "2022-02-01T09:53:27.662782Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 961,
+      "created_by_user_id": 0,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-01T09:58:52.709719Z",
+      "updated_at": "2022-02-01T09:58:52.709770Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 964,
+      "created_by_user_id": 0,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-01T10:07:49.983493Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-02-01T10:07:49.984403Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 965,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-01T10:09:08.384276Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-02-01T10:09:08.384330Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 967,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-01T10:13:07.010266Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-02-01T10:13:07.010323Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 972,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-01T10:13:37.339335Z",
+      "updated_at": "2022-02-01T10:13:37.339412Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 976,
+      "created_by_user_id": 0,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-01T10:13:55.120846Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-02-01T10:13:55.120902Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 977,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-01T10:27:39.463689Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-02-01T10:27:39.463741Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 981,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-01T10:36:49.703813Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-02-01T10:36:49.703866Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 982,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-01T10:50:34.475755Z",
+      "updated_at": "2022-02-01T10:50:34.475817Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 988,
+      "created_by_user_id": 0,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-01T11:25:54.663764Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-02-01T11:25:54.663810Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 992,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-01T11:26:51.900425Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-02-01T11:26:51.900482Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 995,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-01T13:17:27.416866Z",
+      "updated_at": "2022-02-01T13:17:27.416917Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 1000,
+      "created_by_user_id": 0,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-01T14:38:49.903682Z",
+      "updated_at": "2022-02-01T14:38:49.903733Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 1003,
+      "created_by_user_id": 0,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-02T06:06:23.597049Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-02-02T06:06:23.597098Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 1011,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-02T06:07:36.762073Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-02-02T06:07:36.762123Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 1017,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-08T08:47:03.423314Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-02-08T08:47:03.423364Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 1023,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-08T08:58:41.887432Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-02-08T08:58:41.887485Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 1024,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-09T12:04:49.153225Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-02-09T12:04:49.153263Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 1040,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-09T12:05:29.335125Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-02-09T12:05:29.335165Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 1042,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-11T06:30:01.888574Z",
+      "updated_at": "2022-02-11T06:30:01.888619Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 1065,
+      "created_by_user_id": 0,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-11T06:32:24.410490Z",
+      "updated_at": "2022-02-11T06:32:24.410531Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 1068,
+      "created_by_user_id": 0,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-16T10:27:58.621240Z",
+      "updated_at": "2022-02-16T10:27:58.621284Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 1083,
+      "created_by_user_id": 0,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-16T13:19:32.298826Z",
+      "updated_at": "2022-02-16T13:19:32.298869Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 1113,
+      "created_by_user_id": 0,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-16T13:20:56.322408Z",
+      "updated_at": "2022-02-16T13:20:56.322453Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 1116,
+      "created_by_user_id": 0,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-16T13:35:48.327864Z",
+      "updated_at": "2022-02-16T13:35:48.327909Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 1119,
+      "created_by_user_id": 0,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-03-01T11:04:34.985653Z",
+      "updated_at": "2022-03-01T11:04:34.985697Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 1174,
+      "created_by_user_id": 0,
+      "start_frame_order": 0
+    }
+  ]
+}
+ 
+11:58:03.722 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+  "success": "true",
+  "message": "Versions fetched successfully",
+  "data": [
+    {
+      "created_at": "2021-12-28T09:42:39.557721Z",
+      "updated_at": "2021-12-28T09:42:39.557785Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 629,
+      "created_by_user_id": 0,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2021-12-28T11:59:07.757632Z",
+      "updated_at": "2021-12-28T11:59:07.757694Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 632,
+      "created_by_user_id": 0,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2021-12-28T13:30:33.172081Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2021-12-28T13:30:33.172119Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 638,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2021-12-29T11:30:15.682243Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2021-12-29T11:30:15.682283Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 641,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-01-06T09:26:26.582083Z",
+      "updated_at": "2022-01-06T09:26:26.582143Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 648,
+      "created_by_user_id": 0,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-01-06T10:11:01.310060Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-01-06T10:11:01.310098Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 651,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-01-06T10:15:46.076754Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-01-06T10:15:46.076794Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 654,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-01-06T10:19:37.096481Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-01-06T10:19:37.096519Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 657,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-01-06T12:22:51.491295Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-01-06T12:22:51.491332Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 660,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-01-06T12:43:30.202219Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-01-06T12:43:30.202256Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 663,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-01-31T06:07:43.709827Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-01-31T06:07:43.709930Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 868,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-01-31T06:08:41.520412Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-01-31T06:08:41.520461Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 873,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-01-31T06:10:29.320458Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-01-31T06:10:29.320792Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 879,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-01-31T07:32:38.331341Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-01-31T07:32:38.331396Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 884,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-01-31T10:28:57.690329Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-01-31T10:28:57.690377Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 888,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-01-31T10:32:28.280626Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-01-31T10:32:28.280671Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 892,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-01-31T10:32:55.672491Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-01-31T10:32:55.672539Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 893,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-01-31T12:15:29.611435Z",
+      "updated_at": "2022-01-31T12:15:29.611482Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 909,
+      "created_by_user_id": 0,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-01-31T12:27:50.887998Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-01-31T12:27:50.888047Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 913,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-01-31T12:28:34.482796Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-01-31T12:28:34.482845Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 914,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-01-31T13:06:42.665624Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-01-31T13:06:42.665671Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 921,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-01-31T14:53:52.730341Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-01-31T14:53:52.730388Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 928,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-01T05:15:07.768617Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-02-01T05:15:07.768667Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 934,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-01T06:30:33.995987Z",
+      "updated_at": "2022-02-01T06:30:33.996045Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 939,
+      "created_by_user_id": 0,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-01T07:34:54.784907Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-02-01T07:34:54.784961Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 940,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-01T08:03:45.067934Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-02-01T08:03:45.067990Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 945,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-01T08:09:11.684055Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-02-01T08:09:11.684109Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 952,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-01T08:39:50.958816Z",
+      "updated_at": "2022-02-01T08:39:50.958866Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 955,
+      "created_by_user_id": 0,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-01T08:47:14.482379Z",
+      "updated_at": "2022-02-01T08:47:14.482430Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 958,
+      "created_by_user_id": 0,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-01T09:53:27.662732Z",
+      "updated_at": "2022-02-01T09:53:27.662782Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 961,
+      "created_by_user_id": 0,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-01T09:58:52.709719Z",
+      "updated_at": "2022-02-01T09:58:52.709770Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 964,
+      "created_by_user_id": 0,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-01T10:07:49.983493Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-02-01T10:07:49.984403Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 965,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-01T10:09:08.384276Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-02-01T10:09:08.384330Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 967,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-01T10:13:07.010266Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-02-01T10:13:07.010323Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 972,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-01T10:13:37.339335Z",
+      "updated_at": "2022-02-01T10:13:37.339412Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 976,
+      "created_by_user_id": 0,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-01T10:13:55.120846Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-02-01T10:13:55.120902Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 977,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-01T10:27:39.463689Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-02-01T10:27:39.463741Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 981,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-01T10:36:49.703813Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-02-01T10:36:49.703866Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 982,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-01T10:50:34.475755Z",
+      "updated_at": "2022-02-01T10:50:34.475817Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 988,
+      "created_by_user_id": 0,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-01T11:25:54.663764Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-02-01T11:25:54.663810Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 992,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-01T11:26:51.900425Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-02-01T11:26:51.900482Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 995,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-01T13:17:27.416866Z",
+      "updated_at": "2022-02-01T13:17:27.416917Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 1000,
+      "created_by_user_id": 0,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-01T14:38:49.903682Z",
+      "updated_at": "2022-02-01T14:38:49.903733Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 1003,
+      "created_by_user_id": 0,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-02T06:06:23.597049Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-02-02T06:06:23.597098Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 1011,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-02T06:07:36.762073Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-02-02T06:07:36.762123Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 1017,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-08T08:47:03.423314Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-02-08T08:47:03.423364Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 1023,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-08T08:58:41.887432Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-02-08T08:58:41.887485Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 1024,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-09T12:04:49.153225Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-02-09T12:04:49.153263Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 1040,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-09T12:05:29.335125Z",
+      "created_by_user_id": 1062084,
+      "updated_at": "2022-02-09T12:05:29.335165Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 1042,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-11T06:30:01.888574Z",
+      "updated_at": "2022-02-11T06:30:01.888619Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 1065,
+      "created_by_user_id": 0,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-11T06:32:24.410490Z",
+      "updated_at": "2022-02-11T06:32:24.410531Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 1068,
+      "created_by_user_id": 0,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-16T10:27:58.621240Z",
+      "updated_at": "2022-02-16T10:27:58.621284Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 1083,
+      "created_by_user_id": 0,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-16T13:19:32.298826Z",
+      "updated_at": "2022-02-16T13:19:32.298869Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 1113,
+      "created_by_user_id": 0,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-16T13:20:56.322408Z",
+      "updated_at": "2022-02-16T13:20:56.322453Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 1116,
+      "created_by_user_id": 0,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-02-16T13:35:48.327864Z",
+      "updated_at": "2022-02-16T13:35:48.327909Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 1119,
+      "created_by_user_id": 0,
+      "start_frame_order": 0
+    },
+    {
+      "created_at": "2022-03-01T11:04:34.985653Z",
+      "updated_at": "2022-03-01T11:04:34.985697Z",
+      "active": true,
+      "lead_id": 132691,
+      "view_type": "interior",
+      "id": 1174,
+      "created_by_user_id": 0,
+      "start_frame_order": 0
+    }
+  ]
+}
+ 
+11:58:04.464 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:spinnyAPP/CatlogFeature/TC_01 || getInteriorView.feature
