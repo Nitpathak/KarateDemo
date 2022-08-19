@@ -1,11 +1,9 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-
-
 # Class path settings
 .classpath
 
-
-
 # spinny project files
 .project
+# DS files
+.DS_Store
