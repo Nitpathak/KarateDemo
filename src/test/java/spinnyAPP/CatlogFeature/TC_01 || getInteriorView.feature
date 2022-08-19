@@ -7,6 +7,7 @@ Feature: Interior View feature
     When method Get
     Then status 200
     * print response
+    * print response
     * def jsonResponse = response
     * print jsonResponse
     * def successMessage = jsonResponse.success
