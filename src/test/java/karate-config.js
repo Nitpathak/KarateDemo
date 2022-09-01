@@ -5,7 +5,7 @@ function fn() {
     env = 'dev';
   }
   var config = {
-    apiUrl: 'https://spntest.myspinny.com/'
+    apiUrl: ''
   }
   if (env == 'dev') {
     // customize
